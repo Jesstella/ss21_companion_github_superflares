@@ -1,0 +1,1 @@
+Long versions of truncated tables from the paper can be found in this file.
