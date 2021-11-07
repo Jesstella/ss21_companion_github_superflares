@@ -1,1 +1,8 @@
-Code used to create this paper's model and data analysis can be found in this file.
+Code used to create this paper's model and data analysis can be found in this file. 
+
+Notes included in this text file are also included as docstrings at the beginning of each Python code. 
+
+Model building files: 
+sf_creating_kepler_sample.py 
+
+
