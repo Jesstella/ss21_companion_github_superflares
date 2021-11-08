@@ -3,6 +3,28 @@ Code used to create this paper's model and data analysis can be found in this fi
 Notes included in this text file are also included as docstrings at the beginning of each Python code. 
 
 Model building files: 
-sf_creating_kepler_sample.py 
 
+DOCSTRING ########################################
+Script File: SF_code/sf_create_kepler_sample.py 
+
+Input File for Mathur Sample: complete_mathur_file.csv
+Input File for TRILEGAL Sample: full_trilegal_sample_index.csv 
+
+User Inputs: 
+- 'path' should be populated with the path to the data files for both the Mathur sample and the Trilegal sample. This is also where the output sample will be saved. 
+- 'fig_path' should be populated with the path to the directory where output plots will be stored. 
+- 'num_bins_teff', 'num_bins_logg', and 'num_bins_mag' can be set and defined by the user. The default is 50, 8, and 18 respectively. The bin sizes will affect the speed at which the code will run. The current bin sizes, when run on a Mac Pro with a 2.6 GHz 6-Core Intel Core i7 processor with 32 GB 2667 MHz DDR4 of memory is ~15 minutes for the longest binning stage (binning the TRILEGAL sample with 2e7 stars).  
+
+Output Files:
+List of stars lost in the process: lost_list.txt
+List of final TRILEGAL sample: final_trilegal_master.csv
+NB: Both of these above files will be appended, not overwritten if the code is run twice. These files are commented out initially but should be uncommented once the first iteration of the file is created, in case a second one is to be made. 
+
+lost_list.txt contains the number (in 3D) of each bin where at least 1 star is lost, the amount of stars in that bin, and the parameters of the first star in Mathur that populates that bin. 
+
+final_trilegal_master.csv contains the master TRILEGAL sample that will be used in the model, after the cross-match and binning from M17 has occured. It contains the following parameters for each star: Index,Gc,logAge,[M/H],m_ini,logL,logTe,logg,m-M0,Av,m2/m1,mbol,Kepler,g,r,i,z,DDO51_finf,J,H,Ks,Mact. All but 'Index', which is applied to each star as a unique identifier during this script, are parameters from TRILEGAL. Units and help for these parameters can be found here: http://stev.oapd.inaf.it/~webmaster/trilegal_1.6/help.html. 
+
+Output Plots: 
+There are two sets of output plots for the M17 binning and two sets for the TRILEGAL binning. The first set show each of the three parameters in 2D structure with the color indicating the amount of stars that fall in the bin. The second set show the same, but the X and Y axis correspond to the bin number, not the value of the parameter. More information, and model versions of these plots can be found at the GitHub: https://github.com/Jesstella/ss21_companion_github_superflares. 
+########################################
 
