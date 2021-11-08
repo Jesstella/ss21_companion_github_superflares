@@ -24,3 +24,10 @@ P_histograms_compare_mathur_trilegal.png: This plot shows the effective temperat
 This plot shows the agreement we get from our three-parameter cross-match. 
 
 P_histograms_final_trilegal_sample.png: This subplot of 12 histograms shows the distributon of the parameters in the final TRILEGAL sample. 
+
+P_repeats_hist.png: This is a histogram of the amount of repeating stars seen in the TRILEGAL sample. i.e. the amount of times TRILEGAL had to repeat a star to fill a bin. 
+The y-axis represents the number of stars that was repeated either 1, 2, 3, 4, 5, or 6 times. Where 6 was the amount of times a star had to repeat in the sample. 
+On this scale, the stars that had to be repeated 6 times is too small to see (2 times), and is represented by an arrow. 
+
+P_repeats_scatter.png: This scatter plot shows the trilegal sample in Teff-log(g) space. Lines have been added to the plot to show the boundaries imposed on the sample by the S13 cuts. 
+The purple stars have to repeat between 2 and 4 times to fill a bin, and the red triangles have to repeat greater than 5 times. 
