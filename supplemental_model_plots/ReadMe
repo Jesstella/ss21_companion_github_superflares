@@ -1,0 +1,21 @@
+This file contains supplementary plots made by the model code that are not included in the paper. 
+
+The following plots show 2D density plots of each of the parameters binned from the Mathur et al. (2017) — M17 – sample. The colors of the bins correspond to the amount of stars in the bin. 
+P_mathur_bins_logg_mag.png 
+P_mathur_bins_teff_logg.png 
+P_mathur_bins_teff_mag.png
+
+Same as above but for the TRILEGAL sample. 
+P_trilegal_bins_logg_mag.png
+P_trilegal_bins_teff_logg.png 
+P_trilegal_bins_teff_mag.png
+
+The following plots show 2D density plots of the parameters binned from M17, but they differ from the plots above, in that they show the bin numbers on the X and Y axis. The colors of the bins correspond to the amount of stars in the bin.
+P_logg_mag_bins.png 
+P_temp_logg_bins.png 
+P_temp_mag_bins.png 
+
+Same as above but for the TRILEGAL sample. 
+P_trilegal_logg_mag_bins.png
+P_trilegal_temp_logg_bins.png
+P_trilegal_temp_mag_bins.png
