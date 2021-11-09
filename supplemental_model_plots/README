@@ -49,3 +49,8 @@ The final plot shows the distribution of chosen orbital periods for the binary s
 
 P_mass_ratio_split.png: The sample is separated into two bins in order to allocate mass ratio based on the percentage of stars which should have a particular mass ratio (because the multiplicity fraction varies with mass ratio). 
 This plot shows the distribution of effective temperature on the left and surface gravity on the right for both sections of the sample. This shows they were chosen randomly. 
+
+P_moe17_table13.png: This is Table 13 taken from Moe17. The frequencies used, and cited, in this work are outlined. This table is uploaded to GitHub for reference only. 
+The full paper for Moe17 can be found on arxiv at: https://arxiv.org/pdf/1606.05347.pdf.
+
+
