@@ -59,4 +59,10 @@ The second plot shows the cumulative density function for this power law.
 The third plot shows a test distribution for multiple stars with the probability function overplotted. 
 The four plot is a histogram showing the mass ratios chosen at random for the systems in this sub-sample, drawn based on the probability distribution. 
 
+P_mass_ratio_large_small_period.png: These four plots are the same as the plot discussed above but for the mass ratios between 0.3 and 0.95 that have an orbital period < 6 days.
+
+P_mass_ratio_large_high_period.png: These four plots are the same as the plot discussed above but for the mass ratios between 0.3 and 0.95 that have an orbital period >= 6 days.
+
+P_final_sample_mr_and_period.png: These two histograms show the final distribution of mass ratio and orbital period for the final sample of binaries.
+A line on the left hand plot separates the mass ratios drawn between 0.1 and 0.3 and 0.3 and 0.95. This distribution looks much lower for the stars with smaller mass ratios, this is because they appear less frequently, as shown in plot P_mass_ratio_split.png.
 
