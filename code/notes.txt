@@ -28,3 +28,20 @@ Output Plots:
 There are two sets of output plots for the M17 binning and two sets for the TRILEGAL binning. The first set show each of the three parameters in 2D structure with the color indicating the amount of stars that fall in the bin. The second set show the same, but the X and Y axis correspond to the bin number, not the value of the parameter. More information, and model versions of these plots can be found at the GitHub: https://github.com/Jesstella/ss21_companion_github_superflares. 
 ########################################
 
+DOCSTRING ########################################
+Script File: sf_code/sf_creating_binary_sample.py
+
+Input File: final_trilegal_master.csv
+
+User Inputs:
+- 'path' should be populated with the path to the data file for the final TRILEGAL sample that was created after the Mathur cross-match. 
+- 'plot_path' should be populated with the path to the directory where output plots will be stored. 
+
+Output Files:
+Dataframe file containing all the G dwarfs in the TRILEGAL sample: g_stars.csv  
+Dataframe file containing all of the G dwarf binary stars created in this script: g_star_binaries.csv
+
+Output Plots 
+The following plots will be outputted to the plot_path directory. Details of these plots, and model outputs from the first user, can be found at the GitHub: https://github.com/Jesstella/ss21_companion_github_superflares. 
+########################################
+
