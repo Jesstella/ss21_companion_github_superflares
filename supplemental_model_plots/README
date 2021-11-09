@@ -53,4 +53,10 @@ This plot shows the distribution of effective temperature on the left and surfac
 P_moe17_table13.png: This is Table 13 taken from Moe17. The frequencies used, and cited, in this work are outlined. This table is uploaded to GitHub for reference only. 
 The full paper for Moe17 can be found on arxiv at: https://arxiv.org/pdf/1606.05347.pdf.
 
+P_mass_ratio_small.png: These four plots show the distribution of mass ratios for small mass ratio allocations. 
+The plot on the left shows the power law for the small mass ratios (0.1 - 0.3 M_comp/M_1), in the form of the probability distrbution. 
+The second plot shows the cumulative density function for this power law. 
+The third plot shows a test distribution for multiple stars with the probability function overplotted. 
+The four plot is a histogram showing the mass ratios chosen at random for the systems in this sub-sample, drawn based on the probability distribution. 
+
 
