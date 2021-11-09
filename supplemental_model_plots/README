@@ -34,3 +34,6 @@ The purple stars have to repeat between 2 and 4 times to fill a bin, and the red
 
 P_g_dwarf_cut.png: The histogram on the left shows the effective temperatures of the G dwarfs in the sample and the histogram on the right shows the surface gravities. 
 This plot contains all of the stars after the TRILEGAL sample is cut down to just include the G dwarfs based on the parameter restrictions given in S13. 
+
+P_g_star_binary_cut.png: This plot is the same as above but with overplotted grey histograms to show the parameters of G dwarfs that were chosen to be binary stars. 
+The shape of the grey histograms is evidence that the G stars were chosen at random, without replacement, from the original G dwarf sample. 
