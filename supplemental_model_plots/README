@@ -38,10 +38,10 @@ This plot contains all of the stars after the TRILEGAL sample is cut down to jus
 P_g_star_binary_cut.png: This plot is the same as above but with overplotted grey histograms to show the parameters of G dwarfs that were chosen to be binary stars. 
 The shape of the grey histograms is evidence that the G stars were chosen at random, without replacement, from the original G dwarf sample. 
 
-P_m17_fig37.png: This plot is taken from Figure 37 of Moe and Di Stefano (2017) – Moe17 – and is placed in this GitHub for reference to our orbital period distribution only. 
+P_moe17_fig37.png: This plot is taken from Figure 37 of Moe and Di Stefano (2017) – Moe17 – and is placed in this GitHub for reference to our orbital period distribution only. 
 The full paper for Moe17 can be found on arxiv at: https://arxiv.org/pdf/1606.05347.pdf. The distribution used for the orbital periods in this work corresponds to the red line on the bottom section of the plot. 
 
-P_orbital_period_hist.png: This four histogram plot shows the process of assigning orbital periods from the distribution shown in the Moe17 plot shown in P_m17_fig37.png.
+P_orbital_period_hist.png: This four histogram plot shows the process of assigning orbital periods from the distribution shown in the Moe17 plot shown in P_moe17_fig37.png.
 The left hand plot shows the original data taken from the digitized version of the plot and the red data is the smooth interpolated function created from this data. 
 The second plot shows a curve of the probability distribution function calcuated both manually and using a PDF module in Python, to check for errors in the code. 
 The third plot shows a distribution of 100,000 stars normalized to the probability distribution as a sanity check for the code. 
