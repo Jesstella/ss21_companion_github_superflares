@@ -66,3 +66,6 @@ P_mass_ratio_large_high_period.png: These four plots are the same as the plot di
 P_final_sample_mr_and_period.png: These two histograms show the final distribution of mass ratio and orbital period for the final sample of binaries.
 A line on the left hand plot separates the mass ratios drawn between 0.1 and 0.3 and 0.3 and 0.95. This distribution looks much lower for the stars with smaller mass ratios, this is because they appear less frequently, as shown in plot P_mass_ratio_split.png.
 
+P_prim_and_sec_mass_distributions.png: Histograms showing the distributions of the primary star masses (top) and the secondary star masses (bottom). 
+
+P_prim_and_sec_scatter.png: A scatter plot showing the primary and secondary masses for all the systems in the sample.
