@@ -47,5 +47,5 @@ The second plot shows a curve of the probability distribution function calcuated
 The third plot shows a distribution of 100,000 stars normalized to the probability distribution as a sanity check for the code. 
 The final plot shows the distribution of chosen orbital periods for the binary systems. 
 
-P_mass_ratio_split.png: The sample is separated into two bins in order to allocate mass ratio based on the percentage of stars which should have a particular mass ratio. 
+P_mass_ratio_split.png: The sample is separated into two bins in order to allocate mass ratio based on the percentage of stars which should have a particular mass ratio (because the multiplicity fraction varies with mass ratio). 
 This plot shows the distribution of effective temperature on the left and surface gravity on the right for both sections of the sample. This shows they were chosen randomly. 
