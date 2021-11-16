@@ -69,3 +69,15 @@ A line on the left hand plot separates the mass ratios drawn between 0.1 and 0.3
 P_prim_and_sec_mass_distributions.png: Histograms showing the distributions of the primary star masses (top) and the secondary star masses (bottom). 
 
 P_prim_and_sec_scatter.png: A scatter plot showing the primary and secondary masses for all the systems in the sample.
+
+P_prim_distance_hists.png: Each of these histograms shows the distances to the target stars in the sample. From left to right they are in units of parsecs, light-years. and m. 
+These conversions were necessary for the calcuation of separation between primary and secondary star. 
+Each of the stars in this sample is close enough to be observed by Kepler, as we set a magnitude limit in the original TRILEGAL cut consitent with a limiting Kepler magnitude of 22. 
+
+P_separation_distributions.png: These plots show the separation between primary and secondary star, as well as the orbital period and total masses of the systems. 
+The plot on the far left shows a histogram of the total masses of the systems (primary mass + secondary mass). 
+The second plot shows a histogram of the orbital period in log(years), which demonstrates a consistent shape with the distribution pulled from Moe17. 
+The third plot shows a histogram of the separation between all the primary and secondary stars in AU. 
+The fourth and fifth plots show the seaparation between all the primary and secondary stars in radians and arcsecs respectively, necessary unit conversions for the calcuations. 
+
+
