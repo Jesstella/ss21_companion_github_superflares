@@ -79,5 +79,3 @@ The plot on the far left shows a histogram of the total masses of the systems (p
 The second plot shows a histogram of the orbital period in log(years), which demonstrates a consistent shape with the distribution pulled from Moe17. 
 The third plot shows a histogram of the separation between all the primary and secondary stars in AU. 
 The fourth and fifth plots show the seaparation between all the primary and secondary stars in radians and arcsecs respectively, necessary unit conversions for the calcuations. 
-
-
